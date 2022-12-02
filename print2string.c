@@ -8,11 +8,11 @@
 #include <stdio.h>
 int main()
 {
-    char fname[30], lname[30];
+    char firstname[30], lastname[30];
     printf("Enter your first name :" ); //Taking input from user
-    scanf("%s", fname);
+    scanf("%s", firstname);
     printf("Enter your last name :" );//Taking input from user
-    scanf("%s", lname);
-    printf("Your full name is %s %s\n", fname, lname);//printing the string   
+    scanf("%s", lastname);
+    printf("Your full name is %s %s\n", firstname, lastname);//printing the string   
     return 0;
 }
