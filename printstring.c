@@ -6,8 +6,9 @@
 //Write a program to print a string.
 
 #include <stdio.h>
-void main()
+int main()
 {
     char name[]="Arun Vittal";//declaring string
     printf("%s\n", name);//Printing the string    
+    return 0;
 }
