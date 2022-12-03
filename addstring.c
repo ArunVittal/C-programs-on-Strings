@@ -1,17 +1,14 @@
-/******************Author : Arun Vittal*******************/
-/****************** Date : 02/12/2022*********************/
-/*********************Time 5.29pm*************************/
-
-// Write a c program to print add two strings.
-
 #include <stdio.h>
 #include <string.h>
 int main()
 {
-    char string1[] = "Arun", string2[] = "Vittal";
-    printf("Enter first string : ");
-    scanf("%s", string1);
-    printf("Enter second string : ");
-    scanf("%s", string2);
-    printf("Addition of two strings is : %s\n", strcat(string1, string2));
+	char string1[100], string2[100], string3[100];
+	printf("Enter the first string : ");
+	scanf("%s", string1);
+	printf("Enter the second string : ");
+	scanf("%s", string2);
+	strcat(string1, string2);
+	strcpy(string3,string1);
+	printf("Addition of two string is : %s \n", string3);
+	return 0;
 }
