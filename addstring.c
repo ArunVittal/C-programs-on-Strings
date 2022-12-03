@@ -1,3 +1,9 @@
+/******************Author : Arun Vittal*******************/
+/****************** Date : 02/12/2022*********************/
+/*********************Time 5.29pm*************************/
+
+// Write a c program to add two strings.
+
 #include <stdio.h>
 #include <string.h>
 int main()
